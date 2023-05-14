@@ -233,11 +233,11 @@ You cannot find anything below 8-bits but you find multiple above.
 
 ![waveA.png](https://github.com/CyberLab-Thales-Belgium/CTF-BE-Cyber-Command/blob/main/images/5-waveA.png)
 
-We should definitely give a try at cutting and treat every information from this wave file as 8-bits.
+We should definitely give a try at treating this wave file an 8-bits signal.
 
 For this we are going to write some Python code that will read the signal as chunk of 8-bits.
 
-We need first to know what we will do with this information ... Well the simplest idea so far that comes to mind is to count the absence of signal as "0" and the presence of signal as "1".
+First, we need to know what we will do with this information ... Well the simplest idea so far that comes to mind is to count the absence of signal as "0" and the presence of signal as "1".
 
 In other words:
 - each chunk of 8-bits without signal = 0
