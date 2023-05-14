@@ -347,7 +347,7 @@ Currently we will just adapt our python script to associate the a frquency with 
 This transformation gives us the following result:
 `0203 3011 0211 2332 0202 0021 0202 0311 0211 2011 0200 3103 0213 1122 0203 2110 0210 2222 0212 0130 0203 0311 0211 3010 0210 2112 0212 0022 0212 3011 0201 3233 0213 1030 0213 0201 0200 3010 0210 2002 0212 0133 0202 3011 0211 3233 0212 0020 0213 0201 0210 3001 0210 2102 0212 0022 0212 2101`
 
-As we know now that each flag starrts with a "C" it's time to also use this information usefuly. So, let's remember the ASCII coding of the `"C"` letter on 8-bits (`0100 0011`) and let's try to match it with the beginning of our previous result `0203 3011`.
+As we know now that each flag starts with a "C" it's time to also use this information usefuly. So, let's remember the ASCII coding of the `"C"` letter on 8-bits (`0100 0011`) and let's try to match it with the beginning of our previous result `0203 3011`.
 
 ```
 0100 0011
