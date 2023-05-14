@@ -315,7 +315,7 @@ XOR  0111 1101
 ```
 
 What a coincidence! A `XOR` between our two different bytes gives us a `"C"` the exact same first letter as every other flag so far.
-We are doign the same with the second bytes group and we get a `"y"` as second letter.
+We are doing the same with the second bytes group and we get a `"y"` as second letter.
 It's time to adapt our python code and create the `5-bit-wave-B.py` script available above and give a try at this idea!
 
 Let's run it and retrieve the flag:
