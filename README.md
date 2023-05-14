@@ -3,6 +3,8 @@ The Capture The Flag is available here: https://gitlab.com/cycom.edtrg/cyber-sum
 
 It's also available in this github under the zip file `cyber-summerschool-2023-master.zip`
 
+![Belgian Cyber Command](https://github.com/CyberLab-Thales-Belgium/CTF-BE-Cyber-Command/blob/main/images/cybercommand.png)
+
 ## Challenge 1- Cuban Pete
 
 >Cuban Pete knows password strength is important. The password requirements for his vault are extra-secure and contain exactly one uppercase letter, one lowercase letter, one number and one special character... in that order.
